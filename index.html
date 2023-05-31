@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <title>CSS Snippet Cheatsheet</title>
+</head>
+<body>
+    <header>
+        CSS Snippet Cheatsheet
+    </header>
+    <section class="header_text">
+        <h3 class="text">This Cheatsheet will allow you to easily find some common syntex for your css applications</h3>
+    </section>
+    <section class="top">
+    <section class="card">
+        <main>FlexBox Row</main>
+        <p class="info">Use these three properties to create a Flexbox row layout.</p>
+        <pre>
+            <code class="code">
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+</code>
+        </pre>
+      </main>
+
+    </section>
+    <section class="card">
+        <main>FlexBox Column</main>
+        <p class="info">Use this to create a Flexbox column layout.</p>
+        <pre>
+            <code class="code">
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;}   
+            </code>
+        </pre>
+    </main>
+
+    </section>
+    <section class="card">
+        <main>CSS Grid Layout</main>
+        <p class="info">Build a 12-column layout using CSS grid.</p>
+        <pre>
+            <code class="code">
+.container {
+display: grid;
+grid-template-columns: 
+repeat(12, 1fr);
+gap: <--gap-size-->;
+}    
+            </code>
+        </pre>
+    </main>
+
+    </section>
+    <section class="card">
+        <main>Linear Gradients</main>
+        <p class="info">This will create a background linear gradient from top to bottom.</p>
+        <pre>           
+        <code class="code">
+.background {
+background-image: linear-gradient
+(to bottom, #ff0000, #0000ff);
+}         
+            </code>
+        </pre>
+    </main>
+
+    </section>
+    <section class="card">
+        <main>Box Transition Glow </main>
+        <p class="info">Use transition and box shadows to glow on hover.</p>
+             <pre class="code1">           
+        <code class="code">
+glowing-box {
+width: 200px;
+height: 200px;
+background-color: #f1f1f1;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+transition: box-shadow 0.3s ease-in-out;
+}
+            </code>
+        </pre>
+    </main>
+
+    </section>
+    <section class="card">
+        <main>Overlay card with Title</main>
+        <p class="info">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+        <pre>
+            <code class="code">
+.element {
+position: relative;
+top: -20px;
+margin-bottom: -20px;
+}  
+            </code>
+        </pre>
+    </main>
+    </section>
+    </section>
+    <footer>
+        Made by Martin Lopez with HTML & CSS
+    </footer>
+</body>
+
+</html>
